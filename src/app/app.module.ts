@@ -18,6 +18,7 @@ import { RecipeListComponent } from "./recipe/recipe-list/recipe-list.component"
 import { RecipeDetailsComponent } from "./recipe/recipe-details/recipe-details.component";
 import { RecipeItemComponent } from "./recipe/recipe-list/recipe-item/recipe-item.component";
 import { ShoppingEditComponent } from "./shopping-list/shopping-edit/shopping-edit.component";
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatButtonModule, MatInputModule],
@@ -35,7 +36,8 @@ import { ShoppingEditComponent } from "./shopping-list/shopping-edit/shopping-ed
     RecipeListComponent,
     RecipeDetailsComponent,
     RecipeItemComponent,
-    ShoppingEditComponent
+    ShoppingEditComponent,
+    DropdownDirective
   ],
   bootstrap: [AppComponent]
 })
